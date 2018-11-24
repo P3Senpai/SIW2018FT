@@ -7,9 +7,9 @@ class Window(QtWidgets.QWidget):
     def __init__(self):
         super().__init__()
 
-        self.init_ui()
+        self.init_gui()
 
-    def init_ui(self):
+    def init_gui(self):
 
         self.setWindowTitle("Calculator")
 
